@@ -24,7 +24,7 @@ var map = L.mapbox.map('map', 'mapbox.satellite')
 // So the CSV file must be on the same domain as the Javascript, or the server
 // delivering it should support CORS.
 var featureLayer = L.mapbox.featureLayer()
-    .loadURL('/mapbox.js/assets/data/example-single.geojson')
+    .loadURL('holes.geojson')
     .addTo(map);
 </script>
 </body>
